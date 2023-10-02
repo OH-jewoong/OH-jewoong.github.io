@@ -1,0 +1,327 @@
+body{
+  margin: 0;
+  min-width: 400px;
+}
+
+h1{
+  
+}
+
+p{
+  margin: 0;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.white{
+  color :white;
+}
+
+.grey{
+  color : grey;
+}
+
+.sub{
+  font-size: 24px;
+}
+
+.button{
+  padding: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  transition:  all 0.4s linear ;
+}
+
+.button:hover{
+  cursor: alias;
+  background-color: #444;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+
+  width: 100%;
+
+  background-image: linear-gradient(0deg, purple, blue) ;
+}
+
+
+
+
+
+
+
+.topper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.main-left{
+  box-sizing: border-box;
+  padding: 80px 40px 0px 80px;
+
+  width: 55%;
+}
+
+
+
+
+
+.main-right{
+  width: 40%;
+  margin-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.phone{
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+.white-box{
+  margin-top: -5px;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  width:100%;
+  height: 200px;
+  padding-top: 40px;
+}
+
+
+
+
+
+.offer-box{
+  padding-top: 30px;
+  text-align: center;
+
+}
+
+.offer-line{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.offer-item{
+  width: 25%;
+  text-align: center;
+  padding: 20px 1px 20px 1px;
+
+}
+
+
+.circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big{
+  width: 130px;
+  height : 130px;
+  background-color: white;
+  border-radius: 100%;
+  margin-bottom: 20px;
+}
+
+
+.small{
+  width: 50px;
+  height : 50px;
+  background-color: palegreen;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+.sns{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 0px;
+}
+
+
+
+.copyright{
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.do{
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.do-line{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.do-item{
+  background-image: url("../img/portfolio-1.jpg");
+  position: relative;
+  width : 45%;
+  margin : 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s linear;
+}
+
+.floating:hover .do-image{
+  margin :-10px;
+}
+
+
+.do-image{
+  width: 100%;
+}
+
+.floating{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  opacity: 0.4;
+}
+
+do-item:hover{
+  margin : 10px;
+}
+
+
+/* .do-line{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.do-item{
+  position: relative;
+  width : 45%;
+  margin : 0;
+}
+
+.do-image{
+  width: 100%;
+}
+
+.floating{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+} */
+
+
+@media screen and (max-width :992px){
+  
+  .offer-item{
+    width: 40%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width :768px){
+
+  .do-item{
+    width: 70%;
+  }
+  
+  .offer-item{
+    width: 70%;
+  }
+
+
+  .topper{
+    display: block;
+  }
+
+  .main-left{
+    padding-left: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-right{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .phone{
+    padding-bottom: 5px;
+  }
+
+}
